@@ -1,0 +1,36 @@
+body{
+  background-color: #f2f4f3;
+}
+header{
+  nav{
+    .navbar-brand{
+      color: #ECA400 !important;
+      font-size: 32px;
+    }
+    ul{
+      li{
+        a:hover{
+          color: #ECA400 !important;
+        }
+      }
+    }
+  }
+}
+footer{
+  p{
+    color: #f2f4f3;
+  }
+
+  #text1{
+    background-color: #ECA400;
+    border-top: 75px solid transparent;
+    border-right: 100px solid;
+    border-bottom: 75px solid transparent;
+  }
+  #text2{
+    background-color: #272C31;
+    border-top: 75px solid transparent;
+    border-left: 100px solid;
+    border-bottom: 75px solid transparent;
+  }
+}
